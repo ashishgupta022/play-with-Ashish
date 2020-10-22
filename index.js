@@ -8,9 +8,9 @@ document.querySelector(".img2").setAttribute("src", "dice" + randomNumber2 + ".p
 
 
 if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player1🤩 is won.";
+    document.querySelector("h1").innerHTML = "Akansha🤩 wins.";
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player2😎 is won.";
+    document.querySelector("h1").innerHTML = "Ashish😎 wins.";
 } else {
     document.querySelector("h1").innerHTML = "Game is drawn❌.";
 }
